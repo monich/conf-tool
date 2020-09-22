@@ -1,0 +1,10 @@
+Source: conf-tool
+Priority: optional
+Maintainer: Slava Monich <slava@monich.com>
+Build-Depends: debhelper (>= 8.1.3), libglib2.0-dev
+Standards-Version: 3.8.4
+
+Package: conf-tool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Config file manupulation tool
