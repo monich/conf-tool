@@ -27,7 +27,6 @@ SRC = conf-tool.c
 
 SRC_DIR = .
 BUILD_DIR = build
-SPEC_DIR = .
 DEBUG_BUILD_DIR = $(BUILD_DIR)/debug
 RELEASE_BUILD_DIR = $(BUILD_DIR)/release
 
